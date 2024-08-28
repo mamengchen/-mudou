@@ -33,5 +33,30 @@ Testinstallation: 测试自己安装库是否有用
 
 ---
 
+**安装muduo库**
+
+muduo库的介绍就是：一个基于reactor反应堆模型的多线程C++网络库。(<font color="red">注意：需要提前安装cmake和boost环境</font>)
+
+> git clone https://github.com/chenshuo/muduo 
+> cd muduo \
+> ./build.sh install \
+> 再把其中头文件和静态库文件移动到相应目录下
+
+<font color = "green"> muduo网络库给用户提供两个主要的类：\
+TcpServer : 用于编写服务端程序。\
+TcpClient : 用于编写客户端程序。
+</font>
+
+epoll + 线程池 \
+好处：能够把网络 I/O的代码和业务代码区分开（用户的链接和断开，用户的可读写事件）
+
+<em>基于muduo网络库开发服务器程序：
+1. 组合TcpServer对象。
+2. 创建EvenetLoop事件循环对象的指针。
+3. 明确TcpServer构造函数需要什么参数，输出ChatServer的构造函数。
+4. 在当前服务器类的构造函数当中，注册处理连接的回调函数和处理读写事件的回调函数。
+5. 设置合适的服务端线程数量，muduo库会自己分配I/O线程和worker线程。</em>
+
+   
 
 
