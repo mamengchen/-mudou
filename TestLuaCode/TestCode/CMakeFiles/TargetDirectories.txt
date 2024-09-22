@@ -1,0 +1,3 @@
+/home/mmc/Documents/mmcObject/-mudou/TestLuaCode/TestCode/CMakeFiles/MyLuaTest.dir
+/home/mmc/Documents/mmcObject/-mudou/TestLuaCode/TestCode/CMakeFiles/edit_cache.dir
+/home/mmc/Documents/mmcObject/-mudou/TestLuaCode/TestCode/CMakeFiles/rebuild_cache.dir
