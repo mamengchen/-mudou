@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/MyLuaTest.dir/TestAdd.cc.o -o MyLuaTest  -llua5.4 
