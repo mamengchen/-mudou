@@ -1,0 +1,3 @@
+/home/mmc/Documents/mmcObject/-mudou/demo/GameServer/build/CMakeFiles/GameServer.dir
+/home/mmc/Documents/mmcObject/-mudou/demo/GameServer/build/CMakeFiles/edit_cache.dir
+/home/mmc/Documents/mmcObject/-mudou/demo/GameServer/build/CMakeFiles/rebuild_cache.dir
